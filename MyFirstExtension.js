@@ -10,10 +10,10 @@
 
     // Block and block menu descriptions
     var descriptor = {
-        blocks: [
-        ]
+        blocks: [],
+        url: 'http://AleksandrsKorsunovs.github.io/MyFirstExtension.js'
     };
-
+    
     // Register the extension
     ScratchExtensions.register('Sample extension', descriptor, ext);
 })({});
